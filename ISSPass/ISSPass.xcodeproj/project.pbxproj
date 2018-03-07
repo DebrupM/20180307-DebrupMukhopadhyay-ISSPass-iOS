@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5015B827204E9DCB007D0C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B826204E9DCB007D0C86 /* AppDelegate.swift */; };
+		5015B829204E9DCB007D0C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B828204E9DCB007D0C86 /* ViewController.swift */; };
+		5015B82C204E9DCB007D0C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5015B82A204E9DCB007D0C86 /* Main.storyboard */; };
+		5015B82F204E9DCB007D0C86 /* ISSPass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5015B82D204E9DCB007D0C86 /* ISSPass.xcdatamodeld */; };
+		5015B831204E9DCB007D0C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5015B830204E9DCB007D0C86 /* Assets.xcassets */; };
+		5015B834204E9DCB007D0C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5015B832204E9DCB007D0C86 /* LaunchScreen.storyboard */; };
+		5015B83F204E9DCB007D0C86 /* ISSPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B83E204E9DCB007D0C86 /* ISSPassTests.swift */; };
+		5015B84A204E9DCB007D0C86 /* ISSPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B849204E9DCB007D0C86 /* ISSPassUITests.swift */; };
+		5015B859204E9FDA007D0C86 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B858204E9FDA007D0C86 /* DataManager.swift */; };
+		5015B85B204EA042007D0C86 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B85A204EA041007D0C86 /* Reachability.swift */; };
+		5015B85F204EA078007D0C86 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B85E204EA078007D0C86 /* Constants.swift */; };
+		5015B862204F073A007D0C86 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B861204F073A007D0C86 /* DataParser.swift */; };
+		5015B865204F07CD007D0C86 /* ISSPassTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B864204F07CD007D0C86 /* ISSPassTimeModel.swift */; };
+		504EFC64204F42280017475B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EFC63204F42280017475B /* BaseViewController.swift */; };
+		504EFC65204F43B10017475B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B858204E9FDA007D0C86 /* DataManager.swift */; };
+		504EFC66204F43B20017475B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B858204E9FDA007D0C86 /* DataManager.swift */; };
+		504EFC67204F43B60017475B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B828204E9DCB007D0C86 /* ViewController.swift */; };
+		504EFC68204F43B70017475B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B828204E9DCB007D0C86 /* ViewController.swift */; };
+		504EFC69204F43E20017475B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B826204E9DCB007D0C86 /* AppDelegate.swift */; };
+		504EFC6A204F43E20017475B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B826204E9DCB007D0C86 /* AppDelegate.swift */; };
+		504EFC6B204F43E60017475B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EFC63204F42280017475B /* BaseViewController.swift */; };
+		504EFC6C204F43E70017475B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EFC63204F42280017475B /* BaseViewController.swift */; };
+		504EFC6D204F43ED0017475B /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B861204F073A007D0C86 /* DataParser.swift */; };
+		504EFC6E204F43EE0017475B /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B861204F073A007D0C86 /* DataParser.swift */; };
+		504EFC6F204F43F10017475B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B85A204EA041007D0C86 /* Reachability.swift */; };
+		504EFC70204F43F20017475B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B85A204EA041007D0C86 /* Reachability.swift */; };
+		504EFC71204F43F60017475B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B85E204EA078007D0C86 /* Constants.swift */; };
+		504EFC72204F43F70017475B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B85E204EA078007D0C86 /* Constants.swift */; };
+		504EFC73204F43FA0017475B /* ISSPassTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B864204F07CD007D0C86 /* ISSPassTimeModel.swift */; };
+		504EFC74204F43FA0017475B /* ISSPassTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015B864204F07CD007D0C86 /* ISSPassTimeModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5015B83B204E9DCB007D0C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5015B81B204E9DCB007D0C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5015B822204E9DCB007D0C86;
+			remoteInfo = ISSPass;
+		};
+		5015B846204E9DCB007D0C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5015B81B204E9DCB007D0C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5015B822204E9DCB007D0C86;
+			remoteInfo = ISSPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5015B823204E9DCB007D0C86 /* ISSPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISSPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5015B826204E9DCB007D0C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5015B828204E9DCB007D0C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5015B82B204E9DCB007D0C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5015B82E204E9DCB007D0C86 /* ISSPass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ISSPass.xcdatamodel; sourceTree = "<group>"; };
+		5015B830204E9DCB007D0C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5015B833204E9DCB007D0C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5015B835204E9DCB007D0C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5015B83A204E9DCB007D0C86 /* ISSPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5015B83E204E9DCB007D0C86 /* ISSPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPassTests.swift; sourceTree = "<group>"; };
+		5015B840204E9DCB007D0C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5015B845204E9DCB007D0C86 /* ISSPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5015B849204E9DCB007D0C86 /* ISSPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPassUITests.swift; sourceTree = "<group>"; };
+		5015B84B204E9DCB007D0C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5015B858204E9FDA007D0C86 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5015B85A204EA041007D0C86 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5015B85E204EA078007D0C86 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5015B861204F073A007D0C86 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		5015B864204F07CD007D0C86 /* ISSPassTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPassTimeModel.swift; sourceTree = "<group>"; };
+		504EFC63204F42280017475B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5015B820204E9DCB007D0C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5015B837204E9DCB007D0C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5015B842204E9DCB007D0C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5015B81A204E9DCB007D0C86 = {
+			isa = PBXGroup;
+			children = (
+				5015B825204E9DCB007D0C86 /* ISSPass */,
+				5015B83D204E9DCB007D0C86 /* ISSPassTests */,
+				5015B848204E9DCB007D0C86 /* ISSPassUITests */,
+				5015B824204E9DCB007D0C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5015B824204E9DCB007D0C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5015B823204E9DCB007D0C86 /* ISSPass.app */,
+				5015B83A204E9DCB007D0C86 /* ISSPassTests.xctest */,
+				5015B845204E9DCB007D0C86 /* ISSPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5015B825204E9DCB007D0C86 /* ISSPass */ = {
+			isa = PBXGroup;
+			children = (
+				5015B826204E9DCB007D0C86 /* AppDelegate.swift */,
+				504EFC63204F42280017475B /* BaseViewController.swift */,
+				5015B828204E9DCB007D0C86 /* ViewController.swift */,
+				5015B858204E9FDA007D0C86 /* DataManager.swift */,
+				5015B861204F073A007D0C86 /* DataParser.swift */,
+				5015B85A204EA041007D0C86 /* Reachability.swift */,
+				5015B85E204EA078007D0C86 /* Constants.swift */,
+				5015B866204F07D3007D0C86 /* Models */,
+				5015B82A204E9DCB007D0C86 /* Main.storyboard */,
+				5015B830204E9DCB007D0C86 /* Assets.xcassets */,
+				5015B832204E9DCB007D0C86 /* LaunchScreen.storyboard */,
+				5015B835204E9DCB007D0C86 /* Info.plist */,
+				5015B82D204E9DCB007D0C86 /* ISSPass.xcdatamodeld */,
+			);
+			path = ISSPass;
+			sourceTree = "<group>";
+		};
+		5015B83D204E9DCB007D0C86 /* ISSPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				5015B83E204E9DCB007D0C86 /* ISSPassTests.swift */,
+				5015B840204E9DCB007D0C86 /* Info.plist */,
+			);
+			path = ISSPassTests;
+			sourceTree = "<group>";
+		};
+		5015B848204E9DCB007D0C86 /* ISSPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5015B849204E9DCB007D0C86 /* ISSPassUITests.swift */,
+				5015B84B204E9DCB007D0C86 /* Info.plist */,
+			);
+			path = ISSPassUITests;
+			sourceTree = "<group>";
+		};
+		5015B866204F07D3007D0C86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5015B864204F07CD007D0C86 /* ISSPassTimeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5015B822204E9DCB007D0C86 /* ISSPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5015B84E204E9DCB007D0C86 /* Build configuration list for PBXNativeTarget "ISSPass" */;
+			buildPhases = (
+				5015B81F204E9DCB007D0C86 /* Sources */,
+				5015B820204E9DCB007D0C86 /* Frameworks */,
+				5015B821204E9DCB007D0C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISSPass;
+			productName = ISSPass;
+			productReference = 5015B823204E9DCB007D0C86 /* ISSPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5015B839204E9DCB007D0C86 /* ISSPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5015B851204E9DCB007D0C86 /* Build configuration list for PBXNativeTarget "ISSPassTests" */;
+			buildPhases = (
+				5015B836204E9DCB007D0C86 /* Sources */,
+				5015B837204E9DCB007D0C86 /* Frameworks */,
+				5015B838204E9DCB007D0C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5015B83C204E9DCB007D0C86 /* PBXTargetDependency */,
+			);
+			name = ISSPassTests;
+			productName = ISSPassTests;
+			productReference = 5015B83A204E9DCB007D0C86 /* ISSPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5015B844204E9DCB007D0C86 /* ISSPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5015B854204E9DCB007D0C86 /* Build configuration list for PBXNativeTarget "ISSPassUITests" */;
+			buildPhases = (
+				5015B841204E9DCB007D0C86 /* Sources */,
+				5015B842204E9DCB007D0C86 /* Frameworks */,
+				5015B843204E9DCB007D0C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5015B847204E9DCB007D0C86 /* PBXTargetDependency */,
+			);
+			name = ISSPassUITests;
+			productName = ISSPassUITests;
+			productReference = 5015B845204E9DCB007D0C86 /* ISSPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5015B81B204E9DCB007D0C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = debrup;
+				TargetAttributes = {
+					5015B822204E9DCB007D0C86 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					5015B839204E9DCB007D0C86 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5015B822204E9DCB007D0C86;
+					};
+					5015B844204E9DCB007D0C86 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5015B822204E9DCB007D0C86;
+					};
+				};
+			};
+			buildConfigurationList = 5015B81E204E9DCB007D0C86 /* Build configuration list for PBXProject "ISSPass" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5015B81A204E9DCB007D0C86;
+			productRefGroup = 5015B824204E9DCB007D0C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5015B822204E9DCB007D0C86 /* ISSPass */,
+				5015B839204E9DCB007D0C86 /* ISSPassTests */,
+				5015B844204E9DCB007D0C86 /* ISSPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5015B821204E9DCB007D0C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5015B834204E9DCB007D0C86 /* LaunchScreen.storyboard in Resources */,
+				5015B831204E9DCB007D0C86 /* Assets.xcassets in Resources */,
+				5015B82C204E9DCB007D0C86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5015B838204E9DCB007D0C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5015B843204E9DCB007D0C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5015B81F204E9DCB007D0C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5015B82F204E9DCB007D0C86 /* ISSPass.xcdatamodeld in Sources */,
+				5015B859204E9FDA007D0C86 /* DataManager.swift in Sources */,
+				5015B829204E9DCB007D0C86 /* ViewController.swift in Sources */,
+				5015B85B204EA042007D0C86 /* Reachability.swift in Sources */,
+				5015B827204E9DCB007D0C86 /* AppDelegate.swift in Sources */,
+				504EFC64204F42280017475B /* BaseViewController.swift in Sources */,
+				5015B862204F073A007D0C86 /* DataParser.swift in Sources */,
+				5015B85F204EA078007D0C86 /* Constants.swift in Sources */,
+				5015B865204F07CD007D0C86 /* ISSPassTimeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5015B836204E9DCB007D0C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504EFC6F204F43F10017475B /* Reachability.swift in Sources */,
+				504EFC6B204F43E60017475B /* BaseViewController.swift in Sources */,
+				504EFC69204F43E20017475B /* AppDelegate.swift in Sources */,
+				504EFC6D204F43ED0017475B /* DataParser.swift in Sources */,
+				504EFC67204F43B60017475B /* ViewController.swift in Sources */,
+				5015B83F204E9DCB007D0C86 /* ISSPassTests.swift in Sources */,
+				504EFC65204F43B10017475B /* DataManager.swift in Sources */,
+				504EFC73204F43FA0017475B /* ISSPassTimeModel.swift in Sources */,
+				504EFC71204F43F60017475B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5015B841204E9DCB007D0C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504EFC70204F43F20017475B /* Reachability.swift in Sources */,
+				504EFC6C204F43E70017475B /* BaseViewController.swift in Sources */,
+				504EFC6A204F43E20017475B /* AppDelegate.swift in Sources */,
+				504EFC6E204F43EE0017475B /* DataParser.swift in Sources */,
+				504EFC68204F43B70017475B /* ViewController.swift in Sources */,
+				5015B84A204E9DCB007D0C86 /* ISSPassUITests.swift in Sources */,
+				504EFC66204F43B20017475B /* DataManager.swift in Sources */,
+				504EFC74204F43FA0017475B /* ISSPassTimeModel.swift in Sources */,
+				504EFC72204F43F70017475B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5015B83C204E9DCB007D0C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5015B822204E9DCB007D0C86 /* ISSPass */;
+			targetProxy = 5015B83B204E9DCB007D0C86 /* PBXContainerItemProxy */;
+		};
+		5015B847204E9DCB007D0C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5015B822204E9DCB007D0C86 /* ISSPass */;
+			targetProxy = 5015B846204E9DCB007D0C86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5015B82A204E9DCB007D0C86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5015B82B204E9DCB007D0C86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5015B832204E9DCB007D0C86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5015B833204E9DCB007D0C86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5015B84C204E9DCB007D0C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5015B84D204E9DCB007D0C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5015B84F204E9DCB007D0C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ISSPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debrup.ISSPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5015B850204E9DCB007D0C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ISSPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debrup.ISSPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5015B852204E9DCB007D0C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISSPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debrup.ISSPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISSPass.app/ISSPass";
+			};
+			name = Debug;
+		};
+		5015B853204E9DCB007D0C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISSPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debrup.ISSPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISSPass.app/ISSPass";
+			};
+			name = Release;
+		};
+		5015B855204E9DCB007D0C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISSPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debrup.ISSPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ISSPass;
+			};
+			name = Debug;
+		};
+		5015B856204E9DCB007D0C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISSPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.debrup.ISSPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ISSPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5015B81E204E9DCB007D0C86 /* Build configuration list for PBXProject "ISSPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5015B84C204E9DCB007D0C86 /* Debug */,
+				5015B84D204E9DCB007D0C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5015B84E204E9DCB007D0C86 /* Build configuration list for PBXNativeTarget "ISSPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5015B84F204E9DCB007D0C86 /* Debug */,
+				5015B850204E9DCB007D0C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5015B851204E9DCB007D0C86 /* Build configuration list for PBXNativeTarget "ISSPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5015B852204E9DCB007D0C86 /* Debug */,
+				5015B853204E9DCB007D0C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5015B854204E9DCB007D0C86 /* Build configuration list for PBXNativeTarget "ISSPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5015B855204E9DCB007D0C86 /* Debug */,
+				5015B856204E9DCB007D0C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5015B82D204E9DCB007D0C86 /* ISSPass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5015B82E204E9DCB007D0C86 /* ISSPass.xcdatamodel */,
+			);
+			currentVersion = 5015B82E204E9DCB007D0C86 /* ISSPass.xcdatamodel */;
+			path = ISSPass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5015B81B204E9DCB007D0C86 /* Project object */;
+}
